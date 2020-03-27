@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="index.css">
+	<script type="text/javascript" src="index.js"></script>
 </head>
 <body>
 
@@ -18,9 +19,9 @@
 	</div>
 
 	<div class="NavMini">
-		<span class="glyphicon glyphicon-heart"></span>
-		<ul>
-			<li><a href="#">Home</a></li>
+		<button id="hide" onclick="dropMini()"><span class="glyphicon glyphicon-search"></span></button>
+		<ul id="toBeHidden">
+			<li><a href="index.html">Home</a></li>
 			<li><a href="#">services</a></li>
 			<li><a href="#">About us</a></li>
 			<li><a href="#">Contact us</a></li>

@@ -16,6 +16,11 @@ body{
 	padding-right: 30px;
 	border-right: 1px solid black;
 }
+
+li:nth-child(4){
+	border-right: none;
+}
+
 .Nav li:hover{
 	cursor: pointer;
 }
@@ -24,10 +29,12 @@ body{
 	text-decoration: none;
 }
 
+
 .NavMini{
 	display: none;
 }
-/**
+
+
 @media screen and (max-width: 600px){
 	.Nav{
 		display: none;
@@ -38,12 +45,17 @@ body{
 	.NavMini{
 		float: right;
 	}
+	
 	.NavMini ul{
 		width: 150px;
 		position: absolute;
 		right: 0;
 		list-style: none;
 		background-color: rgb(0,0,0, .5);
+		list-style: none;
+		color: black;
+		display: none;
+		margin-top: 28px;
 	}
 	.NavMini li{
 		padding-top: 4px;
@@ -57,4 +69,3 @@ body{
 		display: none;
 	}
 }
-*/
